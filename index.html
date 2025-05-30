@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIA - Construindo Futuros Possíveis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header>
+            <h1 class="logo">CRIA</h1>
+            <div class="header-actions">
+                <button id="theme-toggle" aria-label="Alternar tema">
+                    <i class="icon-moon"></i>
+                </button>
+                <button aria-label="Notificações">
+                    <i class="icon-bell"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <section class="hero">
+                <h2 class="hero-title">O futuro é o que <span>criamos</span> juntos.</h2>
+                <div class="hero-line"></div>
+            </section>
+
+            <section class="topics">
+                <div class="topic-card" data-topic="sustainability">
+                    <i class="icon-leaf"></i>
+                    <h3>Sustentabilidade</h3>
+                </div>
+                <div class="topic-card" data-topic="justice">
+                    <i class="icon-scale"></i>
+                    <h3>Justiça Social</h3>
+                </div>
+                <div class="topic-card" data-topic="diversity">
+                    <i class="icon-users"></i>
+                    <h3>Diversidade e Cultura</h3>
+                </div>
+                <div class="topic-card" data-topic="technology">
+                    <i class="icon-cpu"></i>
+                    <h3>Tecnologia e Humanidade</h3>
+                </div>
+                <div class="topic-card" data-topic="empathy">
+                    <i class="icon-heart"></i>
+                    <h3>Empatia e Convivência</h3>
+                </div>
+                <div class="topic-card" data-topic="crisis">
+                    <i class="icon-flame"></i>
+                    <h3>Crises e Transformações</h3>
+                </div>
+            </section>
+
+            <button id="random-seed" class="random-seed-button">
+                <i class="icon-sprout"></i>
+                Semente Aleatória
+            </button>
+            <div id="seed-content" class="seed-content hidden"></div>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="tab-bar">
+            <a href="#" class="tab-item active">
+                <i class="icon-home"></i>
+                <span>Início</span>
+            </a>
+            <a href="#" class="tab-item">
+                <i class="icon-search"></i>
+                <span>Explorar</span>
+            </a>
+            <a href="#" class="tab-item tab-create">
+                <i class="icon-plus-circle"></i>
+                <span>Criar</span>
+            </a>
+            <a href="#" class="tab-item">
+                <i class="icon-message-circle"></i>
+                <span>Comunidade</span>
+            </a>
+            <a href="#" class="tab-item">
+                <i class="icon-user"></i>
+                <span>Perfil</span>
+            </a>
+        </nav>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
